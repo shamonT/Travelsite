@@ -50,7 +50,10 @@
 }
 .smallCard{
     background-image: url("../public/Ellipse\ 9.png ");
-    
+    background-size: auto;
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
    
 }
 .smallCard1{

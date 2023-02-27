@@ -60,10 +60,10 @@ const Body = () => {
       <div className="  grid justify-between grid-cols-6 space-x-2 space-y-2">
         <div></div>
         <div>
-          <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:bg-white dark:border-white">
+          <div class="w-fit max-w-sm bg-white ">
             <a
               href="/"
-              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+              class="relative smallCard block overflow-hidden  bg-cover bg-center bg-no-repeat"
             >
               <div class="absolute inset-0 bg-black/25"></div>
 
@@ -200,10 +200,10 @@ const Body = () => {
           </div>
         </div>
         <div>
-          <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
+          <div class="w-fit max-w-sm bg-white ">
             <a
               href="#"
-              class="relative smallCard1 block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+              class="relative smallCard block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
             >
               <div class="absolute inset-0 bg-black/25"></div>
 
