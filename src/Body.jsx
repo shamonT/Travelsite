@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const Body = () => {
-  // const [showModal, setShowModal] = useState(false);
   return (
     <div className="">
+      {/* first part */}
       <div className=" first w-full  bg-cover w-max bg-black  ">
         <h1 className="text-center text-white  text-6xl italic pt-44 font-extrabold">
           {" "}
@@ -25,14 +25,25 @@ const Body = () => {
             <h3 className="pr-3">Adult</h3>
           </div>
           <div className="flex space-x-2 pt-3  ">
-            <button className=" border border-black pr-8 rounded-lg	 ">COK cochin airport</button>
-            <button className=" border border-black pr-8 rounded-lg	">COK cochin airport</button>
-            <button className=" border border-black pr-8 rounded-lg	">Sat nov</button>
-            <button className="border border-black pr-8 rounded-lg	">sat nov</button>
-            <button className="border border-black bg-blue-900 pr-8 rounded-lg	">search</button>
+            <button className=" border border-black pr-8 rounded-lg	 ">
+              COK cochin airport
+            </button>
+            <button className=" border border-black pr-8 rounded-lg	">
+              COK cochin airport
+            </button>
+            <button className=" border border-black pr-8 rounded-lg	">
+              Sat nov
+            </button>
+            <button className="border border-black pr-8 rounded-lg	">
+              sat nov
+            </button>
+            <button className="border border-black bg-blue-900 pr-8 rounded-lg	">
+              search
+            </button>
           </div>
         </div>
       </div>
+      {/* second parrt */}
       <div className="container">
         <h1 className="italic text-center pt-24 text-2xl font-bold">
           Choose your
@@ -244,6 +255,7 @@ const Body = () => {
         </div>
         <div></div>
       </div>
+      {/* third part */}
       <div className=" second  w-full   bg-cover w-max bg-black  ">
         <h1 className="text-center   text-white  text-xl italic pt-8 font-extrabold">
           go & Discover
@@ -260,6 +272,7 @@ const Body = () => {
           <img className="image" src="Rectangle 34.png"></img>
         </a>
       </div>
+      {/* 4thpart */}
       <div>
         <h1 className=" pt-8 text-center text-black font-bold text-xl italic">
           Choose your
@@ -312,6 +325,7 @@ const Body = () => {
           industry.
         </p>
       </div>
+      {/* 5th part */}
       <div className="grid grid-cols-4 space-x-0 pl-36">
         <div className="">
           <img src="cashback 1.png" alt=""></img>
@@ -334,6 +348,7 @@ const Body = () => {
           <p>Get valuable vouchers</p>
         </div>
       </div>
+      {/* sixth part */}
       <div className="third">
         <div>
           <h1 className=" pt-8 text-center text-white font-bold text-xl italic">
@@ -442,7 +457,7 @@ const Body = () => {
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
       </div>
-
+      {/* footer */}
       <div className="bg-black grid grid-cols-4 space-x-1 pl-8">
         <div>
           <h1 className="italic mt-2 p-2 flex text-white font-extrabold text-3xl">
