@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "./modal";
+import Modal2 from "./Modal2";
 function Navbar() {
   const [showModal, setShowModal] = useState(false);
   const [open, setOpen] = useState(false);
@@ -94,6 +95,7 @@ function Navbar() {
         </div>
       </div>
       <Modal showModal={showModal} setShowModal={setShowModal} />
+   
     </nav>
   );
 }

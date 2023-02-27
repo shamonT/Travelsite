@@ -57,200 +57,165 @@ const Body = () => {
           industry.
         </p>
       </div>
-      <div className="  grid justify-between grid-cols-6 ">
+      <div className="  grid justify-between grid-cols-6 space-x-2 space-y-2">
         <div></div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:bg-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="/"
+              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS,
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="#"
+              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
+                
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS,
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="#"
+              class="relative smallCard1 block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
+               
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS,
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="#"
+              class=" smallCard1 relative block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
+               
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div></div>
         <div></div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS,
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="#"
+              class=" smallCard1 relative block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
+                
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS,
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="#"
+              class=" smallCard1 relative block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS,
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="#"
+              class="relative smallCard1 block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
+               
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
-            <a href="/">
-              <img
-                class="p-8 rounded-t-lg"
-                src="images (3).jpeg"
-                alt="product image"
-              />
-            </a>
-            <div class="px-5 pb-5">
-              <a href="/">
-                <h5 class="text-xs font-semibold tracking-tight text-black dark:text-black">
-                  Apple Watch Series 7 GPS
-                </h5>
-              </a>
-              <div class="flex items-center mt-2.5 mb-5"></div>
-              <div class="flex items-center justify-between">
-                <span class="text-xs font-bold text-black dark:text-black">
-                  $599
-                </span>
+            <a
+              href="#"
+              class="relative smallCard1 block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <div></div>
@@ -326,7 +291,7 @@ const Body = () => {
         </p>
       </div>
       {/* 5th part */}
-      <div className="grid grid-cols-4 space-x-0 pl-36">
+      <div className="grid grid-cols-4 space-x-0 pl-36 border rounded-lg">
         <div className="">
           <img src="cashback 1.png" alt=""></img>
           <h1 className="font-extrabold">Get 8% CashBack</h1>

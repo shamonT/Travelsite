@@ -37,7 +37,7 @@
   top: 200px;
 }
 .third {
-  background-image: url("C:\Users\HP\Desktop\projects\ytube\client\public\Rectangle 55.png");
+  background-image: url("../public/Rectangle\ 55.png ");
   background-size: cover; /* contain */ /* width in px/em/rem ie 50rem 20rem */
 }
 .card {
@@ -47,4 +47,12 @@
   background-color: white;
 
   margin-top: 90px;
+}
+.smallCard{
+    background-image: url("../public/Ellipse\ 9.png ");
+    
+   
+}
+.smallCard1{
+    background-image: url("../public/Rectangle\ 29.png "); 
 }
