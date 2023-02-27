@@ -95,7 +95,6 @@ function Navbar() {
         </div>
       </div>
       <Modal showModal={showModal} setShowModal={setShowModal} />
-   
     </nav>
   );
 }

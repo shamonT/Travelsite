@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import Modal2 from "./Modal2";
 
 export default function Modal({ showModal, setShowModal }) {
-    
-    const [Show,setShow]=useState(false)
-    const handleRegister= ()=>{
-        setShowModal(false)
-        setShow(true)
-    }
+  const [Show, setShow] = useState(false);
+  const handleRegister = () => {
+    setShowModal(false);
+    setShow(true);
+  };
   return (
     <>
       {showModal ? (
@@ -83,16 +82,16 @@ export default function Modal({ showModal, setShowModal }) {
                           Login
                         </button>
                       </div>
-                      
                     </form>
                     <div class="flex flex-col mt-8">
-                        <button  onClick={handleRegister}
-                          type="button"
-                          class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded"
-                        >
-                          Register
-                        </button>
-                      </div>
+                      <button
+                        onClick={handleRegister}
+                        type="button"
+                        class="bg-blue-500 hover:bg-blue-700 text-white text-sm font-semibold py-2 px-4 rounded"
+                      >
+                        Register
+                      </button>
+                    </div>
                   </div>
                 </div>
                 {/*footer*/}
@@ -107,7 +106,6 @@ export default function Modal({ showModal, setShowModal }) {
                   <button
                     className="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button"
-                    
                   >
                     Submit
                   </button>
@@ -118,8 +116,7 @@ export default function Modal({ showModal, setShowModal }) {
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </>
       ) : null}
-      <Modal2 Show={Show} setShow={setShow}/>
+      <Modal2 Show={Show} setShow={setShow} />
     </>
-    
   );
 }

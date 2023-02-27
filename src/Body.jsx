@@ -73,7 +73,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
               </div>
             </a>
           </div>
@@ -92,8 +91,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
-                
               </div>
             </a>
           </div>
@@ -112,8 +109,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
-               
               </div>
             </a>
           </div>
@@ -132,8 +127,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
-               
               </div>
             </a>
           </div>
@@ -154,8 +147,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
-                
               </div>
             </a>
           </div>
@@ -174,7 +165,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
               </div>
             </a>
           </div>
@@ -193,8 +183,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
-               
               </div>
             </a>
           </div>
@@ -213,7 +201,6 @@ const Body = () => {
 
                   <p class="text-sm">Italy</p>
                 </div>
-
               </div>
             </a>
           </div>
