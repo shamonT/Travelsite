@@ -27,7 +27,7 @@ function Navbar() {
               </a>
             </div>
           </div>
-          <div className="flex items-center space-x-6 hidden md:flex">
+          <div className="flex items-center space-x-6 hidden md:flex ">
             <a href="/" className="hover:text-lime-700">
               Home
             </a>

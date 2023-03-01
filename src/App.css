@@ -11,9 +11,10 @@
   background-image: url("../public/Rectangle\ 26.png ");
   background-size: cover;
   width: 100%;
-  height: 450px;
+  height: 70vh;
   position: relative;
 }
+
 .navbar {
   z-index: 5;
 }
@@ -48,14 +49,13 @@
 
   margin-top: 90px;
 }
-.smallCard{
-    background-image: url("../public/Ellipse\ 9.png ");
-    background-size: auto;
-    width: 180px;
-    height: 200px;
-    border-radius: 50%;
-   
+.smallCard {
+  background-image: url("../public/Ellipse\ 9.png ");
+  background-size: auto;
+  width: 180px;
+  height: 200px;
+  border-radius: 50%;
 }
-.smallCard1{
-    background-image: url("../public/Rectangle\ 29.png "); 
+.smallCard1 {
+  background-image: url("../public/Rectangle\ 29.png ");
 }

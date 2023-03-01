@@ -4,15 +4,15 @@ const Body = () => {
   return (
     <div className="">
       {/* first part */}
-      <div className=" first w-full  bg-cover w-max bg-black  ">
-        <h1 className="text-center text-white  text-6xl italic pt-44 font-extrabold">
+      <div className=" first w-full   bg-cover w-max bg-black  ">
+        <h1 className="text-center text-white md:text-3xl lg:text-5xl xl:text-6xl text-xl italic pt-44 font-extrabold">
           {" "}
           Let's go new
         </h1>
-        <h1 className="text-center content-start text-white font-extrabold text-8xl ">
+        <h1 className="text-center content-start text-white font-extrabold md:text-5xl lg:text-7xl xl:text-8xl text-2xl ">
           Explore and travel
         </h1>
-        <div className="card rounded-lg	pr-8 pl-8">
+        <div className="card lg:block hidden rounded-lg	pr-8 pl-8">
           <div className="flex pt-3 ">
             <h3 className="pr-3">Flights</h3>
             <input className="pr-3" type="radio"></input>
@@ -45,11 +45,11 @@ const Body = () => {
       </div>
       {/* second parrt */}
       <div className="container">
-        <h1 className="italic text-center pt-24 text-2xl font-bold">
+        <h1 className="italic text-center pt-24 md:text-xl lg:text-2xl text-sm font-bold">
           Choose your
         </h1>
         <br></br>
-        <h1 className=" text-center text-blue-900 text-5xl font-extrabold">
+        <h1 className=" text-center text-blue-900 pb-4 md:text-3xl lg:text-5xl text-xl font-extrabold">
           perfect holiday
         </h1>
         <p className="text-center">
@@ -57,13 +57,30 @@ const Body = () => {
           industry.
         </p>
       </div>
-      <div className="  grid justify-between grid-cols-6 space-x-2 space-y-2">
-        <div></div>
+      <div className=" pl-24 grid justify-between lg:grid-cols-6 md:grid-cols-4 grid-cols-2 space-x-1 space-y-1">
         <div>
           <div class="w-fit max-w-sm bg-white ">
             <a
               href="/"
-              class="relative smallCard block overflow-hidden  bg-cover bg-center bg-no-repeat"
+              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="w-fit max-w-sm bg-white ">
+            <a
+              href="/"
+              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
             >
               <div class="absolute inset-0 bg-black/25"></div>
 
@@ -131,8 +148,42 @@ const Body = () => {
             </a>
           </div>
         </div>
-        <div></div>
-        <div></div>
+        <div>
+          <div class="w-fit max-w-sm bg-white ">
+            <a
+              href="/"
+              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="w-fit max-w-sm bg-white ">
+            <a
+              href="/"
+              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
         <div>
           <div class="w-fit max-w-sm bg-white border border-white rounded-lg shadow dark:border-white dark:border-white">
             <a
@@ -191,7 +242,7 @@ const Body = () => {
           <div class="w-fit max-w-sm bg-white ">
             <a
               href="#"
-              class="relative smallCard block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
+              class="relative smallCard1 block overflow-hidden rounded-xl  bg-cover bg-center bg-no-repeat"
             >
               <div class="absolute inset-0 bg-black/25"></div>
 
@@ -205,14 +256,31 @@ const Body = () => {
             </a>
           </div>
         </div>
-        <div></div>
+        <div>
+          <div class="w-fit max-w-sm bg-white ">
+            <a
+              href="/"
+              class="relative smallCard1 block overflow-hidden rounded-xl bg-cover bg-center bg-no-repeat"
+            >
+              <div class="absolute inset-0 bg-black/25"></div>
+
+              <div class="relative flex items-start justify-between p-4 sm:p-6 lg:p-8">
+                <div class="sm:pt-18 pt-12 text-white lg:pt-24">
+                  <h3 class="text-xl font-bold sm:text-2xl">Rome</h3>
+
+                  <p class="text-sm">Italy</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
       {/* third part */}
       <div className=" second  w-full   bg-cover w-max bg-black  ">
-        <h1 className="text-center   text-white  text-xl italic pt-8 font-extrabold">
+        <h1 className="text-center   text-white md:text-xl text-l italic pt-8 font-extrabold">
           go & Discover
         </h1>
-        <h1 className="text-center text-white font-extrabold text-5xl ">
+        <h1 className="text-center text-white font-extrabold md:text-5xl text-2xl ">
           Breathtaking Cities
         </h1>
         <p className="text-white text-center">
@@ -221,7 +289,10 @@ const Body = () => {
           industry.
         </p>
         <a>
-          <img className="image" src="Rectangle 34.png"></img>
+          <img
+            className="image md:absolute absolute"
+            src="Rectangle 34.png"
+          ></img>
         </a>
       </div>
       {/* 4thpart */}
@@ -244,7 +315,7 @@ const Body = () => {
             domestic
           </button>
         </div>
-        <div className="grid grid-cols-6 space-x-1 pt-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6  space-x-1 space-y-1 pt-3">
           <div>
             <img src="Rectangle 64.png" />
           </div>
@@ -266,10 +337,10 @@ const Body = () => {
         </div>
       </div>
       <div>
-        <h1 className=" pt-8 text-center text-black font-bold text-xl italic ">
+        <h1 className=" pt-8 text-center text-black font-bold md:text-xl text-l italic ">
           Choose your
         </h1>
-        <h1 className="text-center text-blue-900 text-4xl font-extrabold">
+        <h1 className="text-center text-blue-900 md:text-4xl text-2xl font-extrabold">
           Best Flight Booking Offers
         </h1>
         <p className="text-center">
@@ -278,7 +349,7 @@ const Body = () => {
         </p>
       </div>
       {/* 5th part */}
-      <div className="grid grid-cols-4 space-x-0 pl-36 border rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 space-x-0 pl-36 border rounded-lg">
         <div className="">
           <img src="cashback 1.png" alt=""></img>
           <h1 className="font-extrabold">Get 8% CashBack</h1>
@@ -303,10 +374,10 @@ const Body = () => {
       {/* sixth part */}
       <div className="third">
         <div>
-          <h1 className=" pt-8 text-center text-white font-bold text-xl italic">
+          <h1 className=" pt-8 text-center text-white font-bold text-sm md:text-xl italic">
             Read the top
           </h1>
-          <h1 className="text-center text-white text-4xl font-extrabold">
+          <h1 className="text-center text-white text-2xlmd:text-4xl font-extrabold">
             Travel Reviews
           </h1>
           <p className="text-center text-white">
@@ -314,7 +385,7 @@ const Body = () => {
             industry.
           </p>
         </div>
-        <div className="grid grid-cols-3 space-x-1 pl-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-x-1 space-y-1 pl-8 items-center">
           <div className="bg-white w-96 ">
             <a
               href="#"
@@ -329,7 +400,7 @@ const Body = () => {
                   </h3>
                 </div>
 
-                <div class="hidden sm:block sm:shrink-0">
+                <div class=" sm:block ">
                   <img
                     alt="Paul Clapton"
                     src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
@@ -359,7 +430,7 @@ const Body = () => {
                   </h3>
                 </div>
 
-                <div class="hidden sm:block sm:shrink-0">
+                <div class=" sm:block">
                   <img
                     alt="Paul Clapton"
                     src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
@@ -389,7 +460,7 @@ const Body = () => {
                   </h3>
                 </div>
 
-                <div class="hidden sm:block sm:shrink-0">
+                <div class=" sm:block">
                   <img
                     alt="Paul Clapton"
                     src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
@@ -410,7 +481,7 @@ const Body = () => {
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
       </div>
       {/* footer */}
-      <div className="bg-black grid grid-cols-4 space-x-1 pl-8">
+      <div className="bg-black grid grid-cols-2 md:grid-cols-4 space-x-1 pl-8">
         <div>
           <h1 className="italic mt-2 p-2 flex text-white font-extrabold text-3xl">
             Travel site
